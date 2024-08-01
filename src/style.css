@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#app {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 60%;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#weather-info {
+    margin-top: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+#unit-toggle {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#unit-toggle label {
+    cursor: pointer;
+}
+
+#unit-switch {
+    margin-right: 0.5rem;
+}
+.weather-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.weather-main {
+    text-align: center;
+}
+
+.weather-main h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.weather-main .temp {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.weather-details {
+    text-align: left;
+}
+
+.weather-details p {
+    margin: 5px 0;
+}
