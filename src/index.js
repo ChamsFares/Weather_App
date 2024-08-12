@@ -18,7 +18,7 @@ form.addEventListener('submit', async (e) => {
     if (weatherData && weatherData.currentConditions) {
         currentWeatherData = processWeatherData(weatherData);
         displayWeatherInfo(currentWeatherData, unitSwitch.checked ? 'fahrenheit' : 'celsius');
-        updatePageStyle(weatherData);  // Pass the original weatherData here
+        updatePageStyle(weatherData);
     } else {
         alert('Unable to fetch weather data. Please try again.');
     }
